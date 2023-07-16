@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgb(179, 17, 17);
+    color: white;
+    height: 3rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    margin: 0 5rem;
+}
+@media screen and (max-width: 767px){
+    .navbar-content{
+        margin: 0 2rem;
+    }
+}
+
+.nav-links{
+    display: flex;
+    gap: 12px;
+}
+.nav-links span{
+    cursor: pointer;
+}
