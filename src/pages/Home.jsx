@@ -1,11 +1,12 @@
 import Products from "../components/products/Products"
+import './Home.css'
 
 const Home = () => {
   return (
-    <div style={{backgroundColor: 'black', color: 'white', padding: '0 2rem'}}>
+    <div className="home">
         
         <div className="product-component">
-                <Products/>
+            <Products/>
         </div>
 
     </div>

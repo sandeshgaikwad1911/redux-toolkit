@@ -1,0 +1,10 @@
+.home{
+    background-color: black;
+    color: white;
+    padding: 0 2rem;  
+}
+@media screen and (max-width: 767px) {
+    .home{
+        padding: 0 .5rem;
+    }
+}
